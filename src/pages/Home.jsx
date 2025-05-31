@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative pt-[150px] bg-red-700 text-white py-20">
+      <section className="relative bg-red-700 text-white py-20">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Red Hat Academy at IIPS, DAVV</h1>
           <p className="text-xl mb-8">Empowering students with open-source technologies and industry-relevant skills</p>
