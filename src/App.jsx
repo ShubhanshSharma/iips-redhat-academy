@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import Courses from './pages/CoursesPage'
 import Faq from "./pages/FaqPage"
 import Gallery from "./pages/GalleryPage";
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
           </Routes>
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );

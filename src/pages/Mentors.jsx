@@ -3,8 +3,8 @@ import MentorCard from '../components/MentorCard';
 const mentors = [
   {
     id: 1,
-    name: "Dr. Rajesh Sharma",
-    role: "Academy Director",
+    name: "Dr. Yasmin Shaikh",
+    role: "Red Hat Coordinator",
     expertise: "Linux Systems, Cloud Computing",
     image: "/assets/images/mentors/dr-rajesh.jpg",
     certifications: ["RHCA", "RHCE", "RHCVA"],
@@ -19,15 +19,6 @@ const mentors = [
     certifications: ["RHCE", "OpenShift Administrator"],
     bio: "Specializes in containerization and automation technologies with extensive industry experience."
   },
-  {
-    id: 3,
-    name: "Mr. Vikram Singh",
-    role: "Lab Instructor",
-    expertise: "System Administration, Security",
-    image: "/assets/images/mentors/mr-vikram.jpg",
-    certifications: ["RHCSA", "RHCE", "Security Specialist"],
-    bio: "Hands-on expert who guides students through practical lab sessions and real-world scenarios."
-  }
 ];
 
 const Mentors = () => {
@@ -39,7 +30,7 @@ const Mentors = () => {
           Learn from certified Red Hat professionals and experienced faculty members
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:px-10 gap-8 justify-items-center">
           {mentors.map(mentor => (
             <MentorCard key={mentor.id} mentor={mentor} />
           ))}

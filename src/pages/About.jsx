@@ -1,3 +1,6 @@
+import React from "react";
+import class_1 from '../assets/Redhat Class1.jpeg';
+
 const About = () => {
   return (
     <div className="min-h-screen py-12">
@@ -24,7 +27,7 @@ const About = () => {
           
           <div>
             <img 
-              src="/assets/images/about/lab-session.jpg" 
+              src={class_1} 
               alt="Students in lab session" 
               className="rounded-lg shadow-lg w-full h-auto"
             />
